@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ejercicio8 CSS ESTILOS DE LETRAS COLORES</title>
+</head>
+
+<!-- Realizo todos los stylos desde Style -->
+    <style>
+        .lista-desordenada{
+            ul {
+                list-style-type: square; 
+                padding: 20px;
+                    }
+
+                        li {
+                        font-size: 10px;
+                        margin-bottom: 5px;
+                        border: 2px solid #197008;
+                        padding: 10px;
+                        color: #c21919;
+                        }
+
+               
+                ul li::marker {
+                color: #007bff; 
+                }
+
+        }
+            
+
+            .mi-encabezado {
+                background-color: #a53434d7; 
+                padding: 20px;
+                text-align: center;
+                font-size: 24px;
+                }
+                .mi-contenido {
+                background-color: #e0f7fa; 
+                padding: 30px;
+                font-size: 16px;
+                line-height: 1.6;
+                }
+
+                .mi-pie-de-pagina {
+                background-color: #dcedc8; 
+                padding: 10px;
+                text-align: center;
+                font-size: 12px;
+                }
+    </style>
+    
+
+
+
+
+    <body> 
+
+    <header class="mi-encabezado">
+        <h1>Curso de Fibra Optica</h1>
+    </header >
+                <hr>
+                    <h5>Ingresar datos del Tecnico</h5>
+                        <form action="/Tarea1/Ejercicio4/">
+                            <label for="nombre"></label>  
+                            <input type="text" id="nombre" name="nombre"placeholder= "Nombre" required> 
+                            <label for="email"></label> 
+                            <input type="email" id="email" name="email"placeholder= "Correo electronico"required>
+                            <button type="submit"> Enviar 
+                            </button>   
+                        </form>
+                    <hr>
+
+
+                    <!-- Aqui se citan la lista desordenada  -->
+ <section class="lista-desordenada">
+
+    <h2>Programa de Curso</h2>
+    <ul>
+      <li>Evaluacion</li>
+      <li>Armado de conector</li>
+      <li>Metodos de instalacion</li>
+      <li>Aplicaciones utilizadas</li>
+      <li>Materiales</li>
+      
+    </ul>
+
+ </section>
+   
+
+
+ <hr>                  
+                    
+    <section class="mi-contenido">
+                <article>
+                    <h2>Evaluacion</h2>
+
+                    <table>
+                    <thead>
+                        <tr>
+                        <th>Tema</th>
+                        <th>%Practica</th>
+                        <th>%Teorica</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                        <td>Conector</td>
+                        <td>40</td>
+                        <td>60</td>
+                        
+                        </tr>
+                        <tr>
+                        <td>Instalacion</td>
+                        <td>60</td>
+                        <td>40</td>
+                        
+                        </tr>
+                        <tr>
+                            <td>Aplicaciones</td>
+                            <td>30</td>
+                            <td>70</td>
+                            
+                        </tr>
+                    </tbody>
+                    </table>
+                    <hr>
+
+                    <h2>Armado de conector de Fibra Optica</h2>
+                    <h4>Herramientas necesarias:</h4>
+                        <p><em>Los modelos y precios se pueden obserbar en la</em> <a href="https://www.electronica.com.py/categoria-producto/fibra-optica/herramienta-para-fibra-optica/"target="_blank">  Tienda virtual</a> </p>
+                    <ol>
+                            <li>PowerMeter</li>
+                            <img src="https://www.electronica.com.py/wp-content/uploads/POWER-METER-MEDIDOR-DE-POTENCIA-DE-FIBRA-OPTICA-PM-35-FC-SC-PC-10DBM-850-1625-ORIENTEK-1.jpg"width="300" height="200">
+                            <li>Cleaver</li>
+                            <img src="https://www.electronica.com.py/wp-content/uploads/CLIVADOR-CORTADOR-DE-FIBRA-OPTICA-FC-6S-SUMITOMO-1.jpg"width="300" height="200">
+                            <li>Tijera Kevlar</li>
+                            <img src="https://www.electronica.com.py/wp-content/uploads/TAWAA_KS-K2_Fiber_Optic_Kevlar_Cutter.jpg"width="300" height="200">
+                            <li>Pela Fibra</li>
+                            <img src="https://www.electronica.com.py/wp-content/uploads/PELACABLE-DE-PRECISION-PARA-FIBRA-OPTICA-FT11301T-TAWAA-1.jpg"width="300" height="200">
+                    </ol>
+            </article>
+   
+</section>
+                       
+
+<footer class="mi-pie-de-pagina">
+        <p> <small>
+            Tarea de Practica de la Maestria 2025 Sin derechos de autor.
+        </small>
+            </p>
+    </footer>
+
+</body>
+</html>

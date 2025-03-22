@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cuadrado que gira ambos lados y cambia de color</title>
+  <style>
+    .circulo {
+      width: 100px;
+      height: 100px;
+      background-color: blue;
+      animation: rotar 5s linear infinite;
+      
+    }
+    
+    @keyframes rotar {
+      0% {
+        transform: rotate(360deg);
+      }
+      50%
+      {transform: rotate(0deg);background-color:red;}
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    @keyframes rotar {
+      0% {
+        transform: rotate(360deg);
+      }
+      50%
+      {transform: rotate(0deg);background-color:red;}
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="circulo"></div>
+
+</body>
+</html>
