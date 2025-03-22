@@ -1,2 +1,2 @@
-# Sistema-de-Informacion-Web.
+# Sistema-de-Informacion-Web
 Modulo de Sistema de Información Web
