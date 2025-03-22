@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Círculo que se desplaza y rota</title>
+  <style>
+    .cuadrado {
+      width: 100px;
+      height: 100px;
+      background-color: blue;
+      animation: rotar 5s linear infinite;
+      animation: desplazarRotar 5s linear infinite;
+      position: relative; 
+    }
+
+    @keyframes desplazarRotar {
+      0% {
+        transform: translateX(0) rotate(0deg);
+       
+      }
+      50% {
+        transform: translateX(200px) rotate(360deg);
+        background-color: red;
+      }
+      100% {
+        transform: translateX(0) rotate(0deg);
+      
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="cuadrado"></div>
+
+</body>
+</html>

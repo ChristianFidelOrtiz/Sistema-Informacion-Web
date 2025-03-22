@@ -1,0 +1,54 @@
+Desarrollo Web
+
+HTML: Estructura del contenido (.html)
+CSS: Como vamos a resentar (.css)
+JavaScrit:funcionalidad e interactiva (.js)
+
+Herramienta de desarrollo web: click secundario inseccionar (en chrome)
+Editor de Texto: Visual Studio Code (crear y editar el .html)
+
+Elementos y Etiquetas
+Elemento: 
+Etiquetas: 
+______Contenido_______
+<html>		<!html>	
+<head>		<!head>
+<body>		<!body>	
+<h1> TITULO	<!h1>		=>de h1 a h6, h6 tamaño mas pequeño
+<p> Un parrafo	<!p>	alt+z para parrafos muy largos
+
+Lista Desordenada (<ul>):
+<ul>
+<li>	<!li>
+<li>	<!li>
+</ul>
+Lista Ordenada (<ol>):
+<ol>
+<li>	<!li>
+<li>	<!li>
+</ol>
+
+
+Imagen				
+<img src="https://www.electronica.com.py" width="300" height="200"(tamaño)
+Enlace
+<a href="https://www.electronica.com.py" target="_blank">  Tienda virtual</a> </p>
+
+Tipo de letras
+<strong> Negrita <!strong>
+<em> Cursiva <!em>
+<hr> linea horizontal
+
+Crear Formulario (<form>)
+<form>      <!form>
+
+1)Casilla
+	1.1)Solicitud de dato:
+		*Dentro de casilla con placeholder= "Nombre"
+		*Fuera de la casilla con label, for,id. Ej: <label for="nombre">Nombre:</label> <inut type="text"> <input type="text" id="nombre" name="nombre">
+	1.2)Entrada de dato
+	<inut type="text"> 
+	required hace el camo obligatorio
+3)Crear boton
+<button type="submit"> Ingresar</ <!button>
+

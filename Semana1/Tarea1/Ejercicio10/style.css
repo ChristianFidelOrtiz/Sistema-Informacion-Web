@@ -1,0 +1,69 @@
+/* Aqui coloco todos los estilos y el del fondo principal */
+body {
+    background-color: lightblue;
+}
+
+
+.mi-tabla table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+.mi-tabla th,
+.mi-tabla td {
+    border: 1px solid yellowgreen;
+    padding: 10px;
+    text-align: center;
+}
+
+.mi-tabla th {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.mi-tabla tr:nth-child(even) {
+    background-color: beige;
+}
+
+.mi-tabla h2 {
+    text-align: center;
+}
+
+.lista-desordenada ul {
+    list-style-type: square;
+    padding: 20px;
+}
+
+.lista-desordenada li {
+    font-size: 10px;
+    margin-bottom: 5px;
+    border: 2px solid green;
+    padding: 10px;
+    color: brown;
+}
+
+.lista-desordenada ul li::marker {
+    color: #007bff;
+}
+
+.mi-encabezado {
+    background-color: #a53434d7;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.mi-contenido {
+    background-color: beige;
+    padding: 30px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.mi-pie-de-pagina {
+    background-color: slategrey;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+}
